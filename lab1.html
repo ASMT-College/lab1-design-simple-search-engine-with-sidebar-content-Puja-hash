@@ -7,34 +7,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>lab1</title>
-    <style>
-        table,td{
-            border: black 2px solid;
-        
-        }
-        td#side_part{
-            
-        }
-    </style>
-
+    
 </head>
 <body>
-    <table>
+<div class="main_part" style="width: 80%;height:300px;background-color:red;float: left;">
+    <table border="1">
         <tr>
             <td id="main_part">S.No</td>
             <td id="side_part">Name</td>
         </tr>
     </table>
   
-    <div
-        style="
-        display: flex;
-        flex-direction: column;
-        gap: 25;
-        justify-content: center;
-        align-items:center;
-        "
-       >
+    <div style="display: flex;flex-direction: column;gap: 25;justify-content: center;align-items:center;">
   
      
         <img src="mr.jpg" alt="google.png" style="display: block;" width="200px" height="200px">
@@ -42,17 +26,18 @@
             <input type="text" name="" id="">
             <input type="button" value="Search">
         </div>   
-        <td id="side_part">
-        <div>
+    </div>    
+</div>
+<div class="side_part" style="width: 20%;height:300px;float:right;background-color: green;">
+       
             <h2>Recent Searches</h2>
-            <!-- <ul>
+            <ul>
                <li> Ram</li>
                 <li>Hari</li>
-                <li>puja</li>
-            </ul> -->
-        </div>
-        </td>
-    </div>
-
+                
+            </ul> 
+</div>
+     
+    
 </body>
 </html>
